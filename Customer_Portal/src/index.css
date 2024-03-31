@@ -1,0 +1,8 @@
+#root{
+  min-height: 100vh; 
+  /* background-image: url('../src/background.jpg'); */
+  background-color: rgb(6, 6, 68);
+   background-size: cover;
+   color:white;
+
+  }

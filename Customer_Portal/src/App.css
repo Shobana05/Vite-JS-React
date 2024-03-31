@@ -1,0 +1,82 @@
+
+*{
+  font-family: 'Ford Antenna';
+
+}
+.details{
+  background: linear-gradient(#00142E,#00142ee3), url("../src/background.jpg");  background-size: auto; /* Adjust the background image size */
+  background-size: cover;
+  height:120vh;
+}
+span::before{
+  width:50px;
+  height:50px;
+  background-color: green;
+  content: "";
+}
+.circle::before {
+  content: "";
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+.main{
+    background: linear-gradient(#00142e,#00142eee), url("../src/background.jpg");
+  background-position:center;
+}
+.retail::before {
+  background-color: #A2B863;
+}
+
+.commercial::before {
+  background-color: #5F8BFA;
+}
+.credit::before{
+  background-color: #F9AB73;
+}
+
+.content{
+  display:flex;
+  justify-content: space-between;
+
+}
+
+ .nav-link {
+  color: white !important; /* Set the text color for the tabs */
+}
+
+.nav-link.active {
+  color:wheat !important; /* Set the text color for the active tab */
+}
+
+tbody tr td{
+ 
+border:2px dotted#D9D9D9;
+
+}
+tfoot tr td{
+border:none;
+
+}
+thead tr,tbody tr,tfoot tr{
+  text-align: center ;
+
+}
+
+
+tbody tr{
+  height: 50px;
+}
+.header{
+  height:100%;
+  background: linear-gradient(#00142E,#00142ee3), url("../src/background.jpg");  background-size: auto; /* Adjust the background image size */
+  background-position:bottom; /* Adjust the background image position */
+      background-blend-mode:multiply;
+}
+.header .profile{
+  width:50px;
+  height:50px;
+  border-radius: 50%;
+}
